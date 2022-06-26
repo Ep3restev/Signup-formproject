@@ -25,10 +25,20 @@ body{
     background-color: black;
     width: 40%;
     height: 100%;
-    background-image:url(/Proyectos/Signupform/Assets/pic1.jpg);
+    background-image:url(/Assets/pic1.jpg);
     background-position: center bottom;
 }
-
+.credits{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 74%;
+}
+.credits p, a{
+    color: white;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 20px;
+}
 .bar{
     position: relative;
     top: 25%;
