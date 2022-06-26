@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: #BBBBBB;
+}
+.container{
+    /*Forma para situar un contenedor en medio de la pagina sería la siguiente*/
+    width: 2000px;
+    height: 1000px;
+    background-color: #70D4B4;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -500px;
+    margin-left: -1000px;
+    display: flex;
+}
+
+.leftcontent{
+    background-color: black;
+    width: 40%;
+    height: 100%;
+    background-image:url(/Proyectos/Signupform/Assets/pic1.jpg);
+    background-position: center bottom;
+}
+
+.bar{
+    position: relative;
+    top: 25%;
+    opacity: .7;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bar h2{
+    color: white;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 40px;
+}
+#logo{
+    width: 200px;
+    height: 200px;
+}
+.rigthcontent{
+    width: 60%;
+    height: 100%;
+    background-color: black;
+}
+.topcontent{
+    width: 100%;
+    height: 400px;
+    background-color: #F3F3F3;
+    color: black;
+    font-family: 'Oxygen', sans-serif;
+}
+.topcontent p{
+    margin: 0 40px;
+    position: relative;
+    top: 50%;
+    font-size: large;
+    font-weight: bold;
+}
+
+.middlecontent{
+    width: 100%;
+    height: 320px;
+    background-color: white;
+}
+
+.middlecontent h1{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 28px;
+    padding: 10px 40px;
+}
+
+.formcontainer{
+    margin-top: 10px;
+    width: 100%;
+    height: 280px;
+    display: flex;
+    padding: 0px 40px;
+}
+
+label{
+    font-family: 'Oxygen', sans-serif;
+    margin-bottom: 20px;
+}
+fieldset{
+    width: 400px;
+    height: 200px;
+    border: none;
+}
+
+input[type=text],input[type=email],input[type=password], input[type=tel]{
+    width: 90%;
+    padding: 10px 10px;
+    border-radius: 4px;
+    border: #ccc 2px solid;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.bottomcontent{
+    width: 100%;
+    height: 280px;
+    background-color: #F3F3F3;
+}
+
+.bottomc2{
+    padding: 20px 40px;
+}
+
+.createaccount{
+    width: 180px;
+    height: 60px;
+    background-color: #70D4B4;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-family: 'Oxygen', sans-serif;
+    box-shadow: 1px 4px 10px #ccc ;
+    color: white;
+    cursor: pointer;
+}
+.advise{
+    margin-top: 20px;
+    font-family: 'Oxygen', sans-serif;
+}
+.advise a{
+    color: #70D4B4;
+}
